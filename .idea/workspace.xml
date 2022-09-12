@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cad18db1-3687-4b4a-b481-01da0d0ece4f" name="Changes" comment="Added descision tree for iris">
+      <change afterPath="$PROJECT_DIR$/boosting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_nn_iris.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_nn_xor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/face_recognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_forest_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smile_detector_nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_set/happy_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_set/sad_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/happy_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training_set/sad_9.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DoByfFLcxWN5BztCM9kBZKBXxu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dusan/quinyx/ai-team/wb-ie-smad-sls&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dusan\projects\udemy\machine-learning\machine-learning\testing_set" />
+      <recent name="C:\Users\Dusan\projects\udemy\machine-learning\machine-learning\training_set" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.smile_detector_nn">
+    <configuration name="deep_nn_iris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_nn_iris.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deep_nn_xor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_nn_xor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="face_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_recognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="smile_detector_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smile_detector_nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.smile_detector_nn" />
+        <item itemvalue="Python.deep_nn_iris" />
+        <item itemvalue="Python.deep_nn_xor" />
+        <item itemvalue="Python.face_recognition" />
+        <item itemvalue="Python.pca" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cad18db1-3687-4b4a-b481-01da0d0ece4f" name="Changes" comment="" />
+      <created>1661355812377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661355812377</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added descision tree for iris">
+      <created>1661357987594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661357987594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added descision tree for iris" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added descision tree for iris" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/boosting.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
