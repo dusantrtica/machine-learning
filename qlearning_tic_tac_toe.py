@@ -96,5 +96,47 @@ class AIPlayer(Player):
 
 
 class TicTacToe:
-    pass
+    def __init__(self, player1, player2):
+        self.player1 = player1
+        self.player2 = player2
+        self.first_player_turn = random.choice([True, False])
+        self.board = [' '] * 9
 
+    def play(self):
+        while True:
+            if self.first_player_turn:
+                player = self.player1
+                other_player = self.player2
+                player_tickers = (AI_PLAYER, HUMAN_PLAYER)
+            else:
+                player = self.player2
+                other_player = self.player1
+                player_tickers = (HUMAN_PLAYER, AI_PLAYER)
+
+            # check the state of the game
+            game_over, winner = self.is_game_over(player_tickers)
+
+            # game is over: handle rewards
+            if game_over:
+                if winner == player_tickers[0]:
+                    player.show_board(self.board[:])
+                    print('\n %s won' % player.__class__.__name__)
+                    player.reward(REWARD_WIN, self.board[:])
+                    other_player.reward(REWARD_LOSE, self.board[:])
+            if winner == player_tickers[1]:
+                player.show_board(self.board[:])
+                print('\n %s won' % player.__class__.__name__)
+                other_player.reward(REWARD_WIN, self.bord[:])
+                player.reward(REWARD_LOSE, self.board[:])
+            else:
+                player.show_board(self.board[:])
+                print('Tie!')
+                player.reward(REWARD_TIE, self.board[:])
+                other_player.reward(REWARD_TIE, self.board[:])
+                break
+
+            self.first_player_turn = not self.first_player_turn
+
+            move = player.make_move(self.board)
+            self.board[move] = player_tickers[0]
+           
