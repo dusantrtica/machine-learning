@@ -2,35 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cad18db1-3687-4b4a-b481-01da0d0ece4f" name="Changes" comment="Added descision tree for iris">
-      <change afterPath="$PROJECT_DIR$/boosting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_nn_iris.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deep_nn_xor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_forest_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smile_detector_nn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_set/happy_test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing_set/sad_test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/happy_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_set/sad_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cifar_10_cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/face_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/face_detection_realtime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handwriting_cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lane_detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_face_detection/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/machine-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machine-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_series_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_series_rnn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dusan/quinyx/ai-team/wb-ie-smad-sls&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Dusan/projects/udemy/machine-learning/machine-learning/static_face_detection",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dusan\projects\udemy\machine-learning\machine-learning\static_face_detection" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dusan\projects\udemy\machine-learning\machine-learning\testing_set" />
       <recent name="C:\Users\Dusan\projects\udemy\machine-learning\machine-learning\training_set" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.smile_detector_nn">
-    <configuration name="deep_nn_iris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hog_example">
+    <configuration name="face_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machine-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_nn_iris.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="deep_nn_xor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="face_detection_realtime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machine-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_nn_xor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_detection_realtime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="face_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="handwriting_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machine-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_recognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/handwriting_cnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hog_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machine-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hog_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="smile_detector_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lane_detector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machine-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smile_detector_nn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lane_detector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.smile_detector_nn" />
-        <item itemvalue="Python.deep_nn_iris" />
-        <item itemvalue="Python.deep_nn_xor" />
-        <item itemvalue="Python.face_recognition" />
-        <item itemvalue="Python.pca" />
+        <item itemvalue="Python.hog_example" />
+        <item itemvalue="Python.face_detection_realtime" />
+        <item itemvalue="Python.face_detection" />
+        <item itemvalue="Python.lane_detector" />
+        <item itemvalue="Python.handwriting_cnn" />
       </list>
     </recent_temporary>
   </component>
